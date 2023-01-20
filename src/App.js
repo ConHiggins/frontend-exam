@@ -6,12 +6,10 @@ import { useState } from "react";
 import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-    const [activeProp, setActiveProp] = useState(null);
-
     return (
         <div className="App">
             <NavBar />
-            <DataGraphContainer data={gamesData} activeProp={activeProp} />
+            <DataGraphContainer data={gamesData} />
         </div>
     );
 }

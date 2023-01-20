@@ -2,8 +2,14 @@
 
     .chartbar{
         content: "";
-        background: red;
-        width: 5rem;
+        background: cornflowerblue;
+        border-radius: 0.1rem;
+        width: 10vw;
         margin: 0.5rem;
+        
+        &-title{
+            writing-mode: vertical-rl;
+
+        }
     }
 }

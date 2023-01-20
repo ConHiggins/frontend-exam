@@ -1,7 +1,11 @@
 @media screen and (min-width: 328px) {
 
-    .datagraph{
+    .datagraph__display-data{
         display: flex;
         flex-direction: row;
+        width: 100vw;
+        border: 2px solid black;
+        overflow-x: scroll;
+        height: 70vh;
     }
 }
