@@ -31,9 +31,7 @@ const DataGraph = ({ data }) => {
     };
 
     useEffect(() => {
-        console.log(getDataWithinTimeframe(data.data));
         setDisplayData(getDisplayData(getDataWithinTimeframe(data.data), startDate.getDay(), endDate.getDay()));
-        console.log(displayData);
     }, [data, startDate, endDate]);
 
     return (
